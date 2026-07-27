@@ -1,8 +1,13 @@
 aid: flagshiprtl
 name: FlagshipRTL
-description: FlagshipRTL is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: FlagshipRTL (Flagship) is a SaaS company providing AI-powered inventory
+  forecasting and merchandise planning software for retail brands, with a focus on
+  apparel and direct-to-consumer (DTC) businesses. Its platform pairs demand forecasting
+  at size-level granularity with multi-scenario planning, a purchase-order (PO) builder,
+  and real-time inventory alerts to help retailers reduce stockouts and maximize full-price
+  sell-through. Flagship reports optimizing over $2B in GMV for customers such as Bala,
+  Mack Weldon, and Fresh Clean Threads, and integrates with systems including Shopify,
+  NetSuite, Cin7, Snowflake, and Google Sheets. Backed by Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/flagshiprtl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,32 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/lcrcmuxs/production/102c8339e9d40e8d0e080ee42979bd7f31fcf406-146x26.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail
+- Inventory Optimization
+- Demand Forecasting
+- Merchandise Planning
+- Artificial Intelligence
+- Apparel
+- Direct to Consumer
+- SaaS
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/flagshiprtl-domain-security.yml
 - type: Website
   url: https://flagshiprtl.com/
+- type: Blog
+  url: https://flagshiprtl.com/blog
+- type: PrivacyPolicy
+  url: https://flagshiprtl.com/privacy-policy
+- type: Support
+  url: https://flagshiprtl.com/frequently-asked-questions
+- type: SignUp
+  url: https://flagshiprtl.com/?component=contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
